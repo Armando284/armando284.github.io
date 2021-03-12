@@ -1,0 +1,66 @@
+body {
+	min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.bg-circle{
+	background: rgb(74, 175, 244);
+	background: radial-gradient(circle, rgba(74,175,244,1) 32%, rgba(74,78,244,1) 100%);
+}
+
+.bg-salmon {
+  background-color: #fee6c0;
+}
+
+#container {
+	min-height: 20vh;
+}
+
+.sample {
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+	transition: background-color .5s;
+}
+
+.sample:hover{
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
