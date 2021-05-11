@@ -1,5 +1,15 @@
 # armando284.github.io
-My portfolio v1.0.1
+# MY WEB DEVELOPER PORTFOLIO
+
+# My portfolio v2.0.1
+
+# English resume
+On this version I fixed all the known bugs, improved the design and added PWA functionalities.
+
+# Resumen en Español
+En esta version arregle todos los errores conocidos, mejore el diseño y agregue funcionalidades de PWA
+
+# My portfolio v1.0.1
 
 # English resume
 Hello my name is Armando Peña and this is my first web developer portfolio. 
